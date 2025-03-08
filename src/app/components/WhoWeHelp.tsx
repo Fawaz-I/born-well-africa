@@ -19,7 +19,7 @@ const WhoWeHelp = () => {
           {/* Left Column - First Statistic */}
           <div className="text-white">
             <p className="text-lg leading-relaxed">
-              According to the World Health Organization, in 2017 Nigeria's maternal mortality rate was estimated at 917 per 100, 000 live births.
+              According to the World Health Organization, in 2017 Nigeria&apos;s maternal mortality rate was estimated at 917 per 100, 000 live births.
             </p>
           </div>
           

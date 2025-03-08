@@ -8,10 +8,10 @@ const Quote = () => {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="mb-8 md:mb-0">
             <div className="flex items-start">
-              <span className="text-6xl text-secondary leading-none">"</span>
+              <span className="text-6xl text-secondary leading-none">&ldquo;</span>
               <blockquote className="mt-2">
                 <p className="text-xl md:text-2xl font-medium text-secondary mb-4">
-                  What's essential to life? A healthy mother.
+                  What&apos;s essential to life? A healthy mother.
                 </p>
                 <footer className="text-gray-700">
                   <cite>
@@ -19,7 +19,7 @@ const Quote = () => {
                   </cite>
                 </footer>
               </blockquote>
-              <span className="text-6xl text-secondary leading-none self-end">"</span>
+              <span className="text-6xl text-secondary leading-none self-end">&rdquo;</span>
             </div>
           </div>
           <div className="relative h-40 w-40 md:h-60 md:w-60">

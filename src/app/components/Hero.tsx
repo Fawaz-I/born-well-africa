@@ -18,7 +18,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className="mb-6">
-              Championing Maternal Wellness: From Nigeria to the World. We're humanizing the Path to Safe Deliveries and Child Care.
+              Championing Maternal Wellness: From Nigeria to the World. We&apos;re humanizing the Path to Safe Deliveries and Child Care.
             </p>
             <Link 
               href="#learn-more" 
