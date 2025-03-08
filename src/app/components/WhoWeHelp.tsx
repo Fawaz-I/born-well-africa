@@ -25,13 +25,14 @@ const WhoWeHelp = () => {
           
           {/* Center Column - Nigeria Map with Image */}
           <div className="flex items-center justify-center">
-            <div className="relative w-full h-64 md:h-80">
+            <div className="relative w-full h-96 md:h-[400px] lg:h-[450px]">
               <Image
                 src="/images/nigeria-maternal-stats.png"
                 alt="Map of Nigeria showing maternal mortality statistics with mother and child silhouette and upward trending arrow"
                 fill
                 style={{ objectFit: 'contain' }}
                 className="rounded-lg"
+                priority
               />
             </div>
           </div>
