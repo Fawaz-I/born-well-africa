@@ -4,4 +4,23 @@
 
 body {
   background-color: #052609;
+  color: white;
+}
+
+@layer components {
+  .btn-donate {
+    @apply bg-secondary rounded-lg px-6 py-2 font-medium text-white transition-all hover:bg-opacity-90;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-6 uppercase tracking-wide;
+  }
+  
+  .section {
+    @apply py-12 w-full;
+  }
+  
+  .container-custom {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6;
+  }
 }
