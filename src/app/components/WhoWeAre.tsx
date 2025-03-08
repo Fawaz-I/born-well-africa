@@ -2,19 +2,18 @@ import React from 'react';
 import Image from 'next/image';
 
 const WhoWeAre = () => {
-  // We'll need to add actual images to the public folder for this section
   const images = [
     {
-      src: "/images/who-we-are-1.jpg",
-      alt: "Mother and child healthcare"
+      src: "/images/mother-child-care.jpg",
+      alt: "Mother and child healthcare - Mother interacting with a young child"
     },
     {
-      src: "/images/who-we-are-2.jpg",
-      alt: "Healthcare professionals"
+      src: "/images/healthcare-team.jpg",
+      alt: "Healthcare professionals - Three women healthcare workers smiling together"
     },
     {
-      src: "/images/who-we-are-3.jpg",
-      alt: "Medical supplies and support"
+      src: "/images/baby-care.jpg",
+      alt: "Baby in crib with caretaker - Caregiver attending to an infant in a hospital crib"
     }
   ];
 
@@ -27,19 +26,16 @@ const WhoWeAre = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {images.map((image, index) => (
-            <div key={index} className="relative h-64 rounded-lg overflow-hidden">
-              <div className="absolute inset-0 bg-gray-800 opacity-20"></div>
-              <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <p className="text-gray-600">Image {index + 1}</p>
-                {/* Replace with actual images when available */}
-                {/* 
+            <div key={index} className="relative h-64 rounded-lg overflow-hidden shadow-lg">
+              <div className="absolute inset-0 bg-gray-800 opacity-10 z-10"></div>
+              <div className="relative w-full h-full">
                 <Image
                   src={image.src}
                   alt={image.alt}
                   fill
                   style={{ objectFit: 'cover' }}
-                /> 
-                */}
+                  className="rounded-lg"
+                />
               </div>
             </div>
           ))}
